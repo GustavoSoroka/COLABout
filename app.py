@@ -2,7 +2,7 @@ import streamlit as st
 
 
 
-import google.auth
+#import google.auth
 
 from google.oauth2 import service_account
 
