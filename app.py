@@ -79,6 +79,6 @@ with c2:
     st.plotly_chart(fig, use_container_width=True, theme="streamlit", key=None, on_select="ignore", selection_mode=('points', 'box', 'lasso'), config={"displayModeBar": False})
     
 
-sleep(10)
+sleep(300)
 
 st.rerun()
