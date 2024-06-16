@@ -36,7 +36,7 @@ st.markdown("""
 
 
 
-credenciais = credentials = service_account.Credentials.from_service_account_info(
+credenciais = service_account.Credentials.from_service_account_info(
     st.secrets["gsc"]
 )
 
