@@ -74,7 +74,7 @@ with c1:
     
 with c2:
     st.subheader('Plot')
-    fig = px.line(df,x = 'Vocab Train', y = 'ACC Train', markers = True)
+    fig = px.line(df,x = 'Vocab Train', y = ['ACC Train', 'ACC Val'], markers = True)
     fig.update_layout(margin=dict(t=0, b=0), height=300,yaxis_range=[0,1])
     st.plotly_chart(fig, use_container_width=True, theme="streamlit", key=None, on_select="ignore", selection_mode=('points', 'box', 'lasso'), config={"displayModeBar": False})
     
