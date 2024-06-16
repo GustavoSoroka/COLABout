@@ -1,4 +1,4 @@
-google.oauth2 
+httpx-oauth2
 pygsheets
 pandas
 time
