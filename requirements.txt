@@ -1,0 +1,5 @@
+google.oauth2 
+pygsheets
+pandas
+time
+plotly
